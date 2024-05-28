@@ -28,7 +28,7 @@ label1 = Label(top, background='#CDCDCD', font=('arial',15,'bold'))
 sign_image = Label(top)
 
 facec = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-model = FacialExpressionModel("model_a.json","model_weights.weights.h5")
+model = FacialExpressionModel("model_a_CNN(3)-FC(1).json","model_CNN(3)-FC(1).weights.h5")
 
 
 EMOTIONS_LIST = ["Angry","Disgust","Fear","Happy","Neutral","Sad","Surprise"]
